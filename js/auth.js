@@ -31,47 +31,6 @@ buttonOut.addEventListener('click', () => {
     logout();
 })
 
-// const logout () => {
-
-// }
-
-// function sayMeow() {
-//     console.log("say Meow!");
-// }
-
-
-// const sayMeow = () => {
-//         console.log("say Meow!");
-//     }
-// sayMeow();
-// sayMeow();
-// sayMeow();
-// sayMeow();
-
-// const obj = {
-//     name: 'Alex',
-//     age: '30',
-//     sayHello: function () {
-//         console.log('Привет, меня зовут Alex!');
-//     }
-// }
-
-// obj.sayHello();
-
-// const arr = [1, 2, 3, 4, 5]
-// console.log(arr[0]+arr[3]);
-
-
-
-// console.log(modalAuth);
-
-// const counter = (a,b) => {
-//     return a + b;
-// }
-// console.log(counter(2, 3));
-// console.log(counter(6, 7));
-// console.log(counter(5, 5));
-
 buttonAuth.addEventListener('click', () => {
     modalAuth.style.display = 'flex';
 })
@@ -83,9 +42,6 @@ modalAuth.style.color = "red";
 closeAuth.addEventListener('click', () => {
     modalAuth.style.display = 'none';
 })
-
-
-// console.log(logInForm)
 
 logInForm.addEventListener('submit', (event) => {
     event.preventDefault()
